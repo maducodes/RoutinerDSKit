@@ -20,7 +20,7 @@ let package = Package(
         .target(
             name: "RoutinerDSKit",
             resources: [
-                .copy("Resources")
+                .process("Assets.xcassets")
             ]),
         .testTarget(
             name: "RoutinerDSKitTests",
